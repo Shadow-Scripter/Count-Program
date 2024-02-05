@@ -1,0 +1,35 @@
+#countLable {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#btnContanier {
+    text-align: center;
+}
+.button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+#decreaseBtn {
+    background-color: hsl(0, 74%, 37%);
+}
+#increaseBtn {
+    background-color: hsl(120, 82%, 36%);
+}
+#resetBtn {
+    background-color: hsl(236, 52%, 37%);
+}
+#decreaseBtn:hover {
+    background-color: hsl(0, 80%, 22%);
+}
+#increaseBtn:hover {
+    background-color: hsl(120, 81%, 20%);
+}
+#resetBtn:hover {
+    background-color: hsl(236, 52%, 20%);
+}
